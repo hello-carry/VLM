@@ -1,0 +1,14 @@
+.topbar-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+/* 给主内容区加margin-top，防止被遮挡（可在App或页面容器加） */
+.main-content-with-topbar {
+  margin-top: 48px;
+} 
